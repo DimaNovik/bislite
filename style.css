@@ -35,7 +35,7 @@ body {
 				padding: 20px 10px;
 			}
 			.nav li a:hover {
-				padding-top: 5px;
+				padding-top: 15px;
 				padding-bottom: 5px;
 				border-top: 3px solid #2aacc8;
 				color: #2aacc8;
@@ -50,7 +50,7 @@ body {
 		    position: absolute;
 		    width: 200px;
 		    top: 30px;
-		    
+			padding: 0 40px 0 0;
 		    font-size: 13px;
 		    font-weight: 700;
 			line-height: 20px;
@@ -100,18 +100,21 @@ body {
 					    display: block;
 					    padding: 0px;
 					    text-decoration: none;
+
 					    
 					}
 					ul.subnav > li > a:hover {
 					    border-top: none;
 					    color:  #2aacc8;
-					    padding: 10px;
+					    padding: 20px 10px 20px 15px;
+					    margin: 0;
+
 					}
 
 						ul.nav > li:hover > ul.subnav {
 						    display: block;
 						  	z-index: 1;
-						  	border-bottom: 3px solid #2aacc8;
+						  	border-bottom: 3px solid #2aacc8;  	
 						}
 		.downarrow:after {
 			content: "\25be";
@@ -361,6 +364,7 @@ span {
 		font-size: 0;
 		vertical-align: top;
 		padding-bottom: 20px;
+		margin-left:6px; 
 	}
 
 		.person h6 {
@@ -391,7 +395,7 @@ span {
 
 		.person p {
 			font-size: 14px;
-			width: 90%;
+			width: 80%;
 			font-weight: 400;
 			line-height: 24px;
 			color: #363636;
@@ -406,6 +410,7 @@ span {
 			padding-top: 20px;
 		}
 
+	
 	.download {
 		max-width: 1000px;
 		height: 140px;
